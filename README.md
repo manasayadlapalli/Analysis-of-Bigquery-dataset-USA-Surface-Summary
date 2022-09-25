@@ -8,7 +8,7 @@ cd (project path)
 python app.py
 ```
 
-## Deployment app on Heroku:
+## Deployment on Heroku:
 ##### https://cmpe-255-hw-1.herokuapp.com/
 
 ## Dropbox link
