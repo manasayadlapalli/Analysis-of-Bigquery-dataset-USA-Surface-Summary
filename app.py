@@ -47,7 +47,7 @@ app.layout = html.Div(children=[
     Output("graph", "figure"), 
     Input("button", "n_clicks"))
 def display_graph(n_clicks):
-    df = pd.read_csv(r'C:\Users\saima\OneDrive\Desktop\255-web-app\255-test\data.csv') 
+    df = pd.read_csv(r'data.csv') 
     if n_clicks % 2 == 0:
         x, y = 'celsius', 'state'
     else:
@@ -59,7 +59,7 @@ def display_graph(n_clicks):
     Output("bar", "figure"), 
     Input("button", "n_clicks"))
 def display_graph(n_clicks):
-    df = pd.read_csv(r'C:\Users\saima\OneDrive\Desktop\255-web-app\255-test\data.csv')
+    df = pd.read_csv(r'data.csv')
     if n_clicks % 2 == 0:
         y, x = 'celsius', 'state'
     else:
@@ -72,7 +72,7 @@ def display_graph(n_clicks):
     Input("button", "n_clicks"))
 
 def update_graph(my_dropdown):
-     data = pd.read_csv(r'C:\Users\saima\OneDrive\Desktop\255-web-app\255-test\data.csv')  
+     data = pd.read_csv(r'data.csv')  
      fig2 = px.choropleth(data, locations='state',
                      locationmode="USA-states", color='celsius', scope="usa") 
      #fig2.show()    
