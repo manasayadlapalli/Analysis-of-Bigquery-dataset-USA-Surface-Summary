@@ -9,7 +9,8 @@ import plotly.graph_objects as go
 import numpy as np
 print(np.pi)
 
-app = Dash(__name__)
+app = dash.Dash(__name__)
+server = app.server
 
 app.layout = html.Div(children=[
     # All elements from the top of the page
@@ -83,5 +84,7 @@ app.css.append_css({
 
 if __name__ == '__main__':
     app.run_server(debug=True)
+
+
 
 
