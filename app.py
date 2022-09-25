@@ -9,7 +9,7 @@ import plotly.graph_objects as go
 import numpy as np
 print(np.pi)
 
-app = dash.Dash(__name__)
+app = Dash(__name__)
 server = app.server
 
 app.layout = html.Div(children=[
