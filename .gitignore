@@ -1,0 +1,9 @@
+.flaskenv
+
+.env
+
+.DS_Store
+
+venv
+
+*.pyc
