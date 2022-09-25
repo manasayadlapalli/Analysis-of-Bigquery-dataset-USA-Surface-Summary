@@ -1,6 +1,6 @@
 # Bigquery public dataset - Global Surface Summary of the Day Weather Data
 
-### To run the Dash app locally:
+### To run the Dash Plotly app locally:
 ```
 git clone https://github.com/manasayadlapalli/CMPE-255-HW-1
 pip install (all packages from requirements.txt)
