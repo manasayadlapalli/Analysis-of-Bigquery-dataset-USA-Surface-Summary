@@ -1,4 +1,4 @@
-# CMPE-255-HW-1 - GSOD (Global Surface Summary of the Day Weather Data
+# Bigquery public dataset - Global Surface Summary of the Day Weather Data
 
 ### To run the Dash app locally:
 ```
@@ -8,6 +8,8 @@ cd (project path)
 python app.py
 ```
 
-
 ## Deployment app on Heroku:
-#### https://cmpe-255-hw-1.herokuapp.com/
+##### https://cmpe-255-hw-1.herokuapp.com/
+
+## Dropbox link
+##### https://www.dropbox.com/s/0yyuxgq9wg2rhmq/cmpe-255-hw-1.mp4?dl=0
